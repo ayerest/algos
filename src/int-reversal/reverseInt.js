@@ -1,5 +1,9 @@
+import reverseString from '../str-reversal/reverseString';
+
 const reverseInt = (num) => {
-  return 'sup';
+  const str = num.toString();
+  const reversed = reverseString(str);
+  return parseInt(reversed);
 }
 
 export default reverseInt;
